@@ -1,0 +1,16 @@
+
+/*Navbar style*/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.navitem{
+	float:left;
+	text-align: center;
+	padding: 14px 16px;
+	
+}

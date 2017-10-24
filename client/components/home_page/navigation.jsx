@@ -13,13 +13,15 @@ class Navbar extends Component {
 
 	render() {
 		return(
-		 <div>
-		  <Nav bsStyle="pills" activeKey={1} >
-		    <NavItem eventKey={1} href="/home">NavItem 1 content</NavItem>
-		    <NavItem eventKey={2} title="Item">NavItem 2 content</NavItem>
-		    <NavItem eventKey={3} disabled>NavItem 3 content</NavItem>
+		  <Nav className="navbar" >
+		  	<div className="container-fluid">
+			    <NavItem className="navitem" eventKey={1} >Home</NavItem>
+			    <NavItem className="navitem" eventKey={2} >Education</NavItem>
+			    <NavItem className="navitem" eventKey={3} >Skills</NavItem>
+			    <NavItem className="navitem" eventKey={4} >Projects</NavItem>
+			    <NavItem className="navitem" eventKey={5} >Blog</NavItem>
+		 	</div>
 		  </Nav>
-		 </div>
 	 )}
 }
 
