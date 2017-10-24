@@ -13,14 +13,14 @@ class Navbar extends Component {
 
 	render() {
 		return(
-		  <Nav className="navbar" >
-		  	<div className="container-fluid">
-			    <NavItem className="navitem" eventKey={1} >Home</NavItem>
-			    <NavItem className="navitem" eventKey={2} >Education</NavItem>
-			    <NavItem className="navitem" eventKey={3} >Skills</NavItem>
-			    <NavItem className="navitem" eventKey={4} >Projects</NavItem>
-			    <NavItem className="navitem" eventKey={5} >Blog</NavItem>
-		 	</div>
+		  <Nav className="nav" >
+		  	<ul>
+			    <NavItem className="navitem" eventKey={1}><li><a>Home</a></li></NavItem>
+			    <NavItem className="navitem" eventKey={2}><li><a>Education</a></li></NavItem>
+			    <NavItem className="navitem" eventKey={3}><li><a>Skills</a></li></NavItem>
+			    <NavItem className="navitem" eventKey={4}><li><a>Projects</a></li></NavItem>
+			    <NavItem className="navitem" eventKey={5}><li><a>Blog</a></li></NavItem>
+		 	</ul>
 		  </Nav>
 	 )}
 }
