@@ -29,4 +29,9 @@ display: table-row;
 /*.nav active{
     background-color: #4CAF50;
 }*/
+.active{
+	background-color: #e0e0e0;
+}
+
+
 
