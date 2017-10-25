@@ -3,7 +3,7 @@
 .nav {
 	list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px 10px;
     overflow: hidden;
 }
 .nav ul {
@@ -14,23 +14,31 @@ display: table-row;
 	float: left;
 	display: block;
 	margin: 0;
-	padding: 20px 20px;
+	padding: 14px 14px;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 	color:#000000; 
 	
 }
 
 .nav li:hover{
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px; 
+	border-bottom-left-radius: 6px;
 	background-color: #e0e0e0;
 }
 
-/*.nav active{
-    background-color: #4CAF50;
-}*/
 .active{
-	background-color: #e0e0e0;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px; 
+	border-bottom-left-radius: 6px;
+	border-left: 8px solid #e0e0e0;
+	border-bottom: 8px solid #e0e0e0;
+
+	/*background-color: #e0e0e0;*/
 }
 
 
